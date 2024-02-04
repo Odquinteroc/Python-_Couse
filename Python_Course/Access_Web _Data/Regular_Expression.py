@@ -51,3 +51,5 @@ print(ll)
 er = 'we just recived $10.00 for cookies.'
 df = re.findall('\$[0-9.]+', er)
 print(df)
+
+#testing
