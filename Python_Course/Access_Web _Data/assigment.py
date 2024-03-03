@@ -11,4 +11,4 @@ m = sum(h)
 print(m)
 
 
-# Python 3: print( sum( [ ****** *** * in **********('[0-9]+',**************************.read()) ] ) )
+#  print( sum( [ for line in x: line.rstrip() ('[0-9]+',**************************.read()) ] ) )

@@ -1,14 +1,32 @@
 # Types matters
 #Python knows what types everythings is 
 
+A = "Writing programs (or programming) is a very creative and rewarding activity"
+B = [1,2,3,4,5]
+C = 87
+D = 58.5
+E = b'hola'
+EE = memoryview(E)
+EEE = bytes
+EEEE = bytearray(b'hello world')
+F = {"key": 15, "key1":"value"}
+G = (5,15, "hello world")
+H = True
+I = None
+J = 15
+K = {"Hello", "world"}
 
-A = "Writing programs (or programming) is a very creative and rewarding activity. You can write programs for many reasons, ranging from making your living to solving a difficult data analysis problem to having fun to helping someone else solve a problem. This book assumes that everyone needs to know how to program, and that once you know how to program you will figure out what you want to do with your newfound skills."
-
-
-B = 'We are surrounded in our daily lives with computers ranging from laptops to cell phones. We can think of these computers as our personal assistants who can take care of many things on our behalf. The hardware in our current-day computers is essentially built to continuously ask us the question, What would you like me to do next? '
-
-C = 'Programmers add an operating system and a set of applications to the hardware and we end up with a Personal Digital Assistant that is quite helpful and capable of helping us do many different things.'
-
-D= print (A);
-
-print(D);
+print('A', type(A), A) 
+print('B', type(B), B)
+print('C', type(C), C)
+print('D', type(D), D)
+print('E', type(E), E)
+print('EE', type(EE), EE)
+print('EEE', type(EEE), EEE)
+print('EEEE', type(EEEE), EEE)
+print('F', type(F), F)
+print('G', type(G), G)
+print('H', type(H), H)
+print('I', type(I), I)
+print('J', type(J), J)
+print('K', type(K), K)
